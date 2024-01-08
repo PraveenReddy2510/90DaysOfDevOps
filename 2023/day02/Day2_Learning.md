@@ -85,7 +85,7 @@ Blog's referred:
 #### 8. With -p option cp preserves the following characteristics of each source file in the corresponding destination file: the time of the last data modification and the time of the last access, the ownership (only if it has permissions to do this), and the file permission-bits. 
 ##### Note: For the preservation of characteristics, you must be the root user of the system, otherwise characteristics change.
     cp -p <Source_file> <Destination_file>
-## E. Moving commands
+## E. Moving commands....next day
 
 
 
