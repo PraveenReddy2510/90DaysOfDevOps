@@ -3,6 +3,8 @@ Blog's referred:
 - https://medium.com/cloud-native-daily/mastering-linux-for-devops-engineers-essential-commands-and-practices-for-success-a608a718069f
 - https://medium.com/cloud-native-daily/mastering-linux-advanced-skills-for-devops-engineers-1a0c00fad159
 - https://www.geeksforgeeks.org/mv-command-linux-examples/
+- https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+- https://www.geeksforgeeks.org/chmod-command-linux/
 
 # File and Directory Management
 ## E. Moving commands (```mv``` - is for renaming a file or directory and moving a file or directory to another location)
