@@ -37,10 +37,10 @@ Blog's referred:
 ## F. Find Command (```find``` to search the files and directories within a hierarchical structure)
 #### 1. To find a ```file/directory_name``` in the home directory
     find ~ -name <file/directory_name>
-#### 2. It seeks a ```file/directory_name``` within the ```directory_name``` directory. (like searching the directory from pwd and then search for file/directory throughout that directory)
+#### 2. It seeks a ```file/directory_name``` within the ```directory_name``` directory. (like searching from the pwd and then search for file/directory throughout that directory)
     find ./<directory_name> -name <file/directory_name>
-#### 3. To find a ```file/directory_name``` in the home directory
-    find ~ -name <file/directory_name>
+#### 3. It seeks a ```file/directory_name``` having the specific pattern of file type within the ```directory_name``` directory. (like searching from the pwd and then search for file/directory throughout that directory)
+    find ./<directory_name> -name *.txt 
 
 #### Options Available in Find Command in Linux
 #### Here are the `find` command options along with brief descriptions of their purposes.
