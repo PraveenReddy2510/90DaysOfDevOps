@@ -35,9 +35,15 @@ Blog's referred:
     mv -b <source_file_name> <Destination_file_name>
     
 ## F. Find Command (```find``` to search the files and directories within a hierarchical structure)
+#### 1. To find a ```file/directory_name``` in the home directory
+    find ~ -name <file/directory_name>
+#### 2. It seeks a ```file/directory_name``` within the ```directory_name``` directory. (like searching the directory from pwd and then search for file/directory throughout that directory)
+    find ./<directory_name> -name <file/directory_name>
+#### 3. To find a ```file/directory_name``` in the home directory
+    find ~ -name <file/directory_name>
 
-Options Available in Find Command in Linux
-Here are the `find` command options along with brief descriptions of their purposes.
+#### Options Available in Find Command in Linux
+#### Here are the `find` command options along with brief descriptions of their purposes.
 | Command  | Description |
 | ------------- | ------------- |
 | ```-name pattern```| Searches for files with a specific name or pattern.|
@@ -53,15 +59,6 @@ Here are the `find` command options along with brief descriptions of their purpo
 | ```-execdir command {} \;```| Executes a command on each file found, from the directory containing the matched file.|
 | ```-iname pattern```| Case-insensitive version of `-name`. Searches for files with a specific name or pattern, regardless of case.|
 
-
-
-
-
-
-
+## G. ```chmod``` Command (```chmod``` stands for ```change mode``` and used for change file permissions. In this the permissions have three categories: read, write, and execute simultaneously represented by `r`, `w` and `x`. )
 #### 1. To find a ```file/directory_name``` in the home directory
     find ~ -name <file/directory_name>
-#### 2. It seeks a ```file/directory_name``` within the ```90days``` directory. (like searching the directory from pwd and then search for file/directory throughout that directory)
-    find ./90days -name <file/directory_name>
-#### 3. It seeks a ```file/directory_name``` within the ```directory_name``` directory.
-    find ./<directory_name> -name <file/directory_name>
