@@ -34,12 +34,12 @@ Blog's referred:
 ###### If `Destination_file_name` already exists, in that case, it will be creating a new file with the tilda at the end of `Destination_file_name` (as `Destination_file_name~`)
     mv -b <source_file_name> <Destination_file_name>
     
-## F. Find Command (```find``` to search the files and directories within a hierarchical structure)
+## F. ```find``` Command (```find``` to search the files and directories within a hierarchical structure)
 #### 1. To find a ```file/directory_name``` in the home directory
     find ~ -name <file/directory_name>
 #### 2. It seeks a ```file/directory_name``` within the ```directory_name``` directory. (like searching from the pwd and then search for file/directory throughout that directory)
     find ./<directory_name> -name <file/directory_name>
-#### 3. It seeks a ```file/directory_name``` having the specific pattern of file type within the ```directory_name``` directory. (like searching from the pwd and then search for file/directory throughout that directory)
+#### 3. It seeks a ```file/directory_name``` having the specific pattern of file (like .txt, .md etc) type within the ```directory_name``` directory. (like searching from the pwd and then search for file/directory throughout that directory)
     find ./<directory_name> -name *.txt 
 #### 4. It lists the empty files and directories within a specified directory ```directory_name```.
     find ./<directory_name> -empty
