@@ -73,3 +73,63 @@ Blog's referred:
 | ```-f```| It helps in avoiding display of error messages.|
 | ```-h```| Change the permissions of symbolic links instead of the files they point to.|
 
+### Modes in chmod Command in Linux
+#### The “mode” helps in setting new permissions that have to be applied to files or directories.
+#### This mode can be specified in several ways, we will discuss two modes: Symbolic and Octal mode. 
+
+#### 1. Symbolic mode
+##### If we talk about symbolic mode, we can say that it is the most common method used for specifying fir permissions. In this we have to make a combination of letters and operators to set or tell what to do with permissions.
+
+##### The following operators can be used with the symbolic mode:
+| Operators  | Definition |
+| ------------- | ------------- |
+| ```+```| Add permissions|
+| ```-```| Remove permissions|
+| ```=```| Set the permissions to the specified values|
+
+##### The following letters that can be used in symbolic mode:
+| Letters  | Definition |
+| ------------- | ------------- |
+| ```r```| Read permission|
+| ```w```| Write permission|
+| ```x```| Execute permission|
+
+##### The following Reference that are used:
+| Reference  | Class |
+| ------------- | ------------- |
+| ```u```| Owner|
+| ```g```| Group|
+| ```o```| Others|
+| ```a```| All (owner,groups,others)|
+
+#### Examples of Using the Symbolic mode:
+#### Read, write and execute permissions to the file owner:
+    chmod u+rwx [file_name]
+
+#### Remove write permission for the group and others:
+    chmod go-w [file_name]
+
+#### Read and write for Owner, and Read-only for the group and other:
+    chmod u+rw,go+r [file_name]
+
+#### 2. Octal mode
+##### It is also a method for specifying permissions. In this method we specify permission using three-digit number. Where..
+
+##### - First digit specify the permission for Owner.
+##### - Second digit specify the permission for Group. 
+##### - Third digit specify the permission for Others. The digits 
+###### NOTE: The digits are calculated by adding the values of the individual permissions.
+| Value  | Permission |
+| ------------- | ------------- |
+| ```4```| Read Permission|
+| ```2```| Write Permission|
+| ```1```| Execute Permission|
+
+#### Examples of Using the Octal mode:
+#### Suppose if we to give read and write permission to the file Owner. Read, write and executable permission to the Group. Read-only permission to the Other. They our command would be.
+    chmod 674 [file_name]
+
+#### Here.
+#### 6 represent permission of file Owner which are (rw).
+#### 7 represent permission of Group which are (rwx).
+#### 4 represent permission of Other which is (r).
