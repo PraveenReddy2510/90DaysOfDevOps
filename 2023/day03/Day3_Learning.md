@@ -34,4 +34,34 @@ Blog's referred:
 ###### If `Destination_file_name` already exists, in that case, it will be creating a new file with the tilda at the end of `Destination_file_name` (as `Destination_file_name~`)
     mv -b <source_file_name> <Destination_file_name>
     
-## F. find Command
+## F. Find Command (```find``` to search the files and directories within a hierarchical structure)
+
+Options Available in Find Command in Linux
+Here are the `find` command options along with brief descriptions of their purposes.
+| Command  | Description |
+| ------------- | ------------- |
+| ```-name pattern```| Searches for files with a specific name or pattern.|
+| ```-type type```| Specifies the type of file to search for (e.g., f for regular files, d for directories).|
+| ```-size [+/-]n```| Searches for files based on size. `+n` finds larger files, `-n` finds smaller files. ‘n‘ measures size in characters.|
+| ```-mtime n```| Finds files based on modification time. `n` represents the number of days ago.|
+| ```-exec command {} \;```| Executes a command on each file found.|
+| ```-print```| Displays the path names of files that match the specified criteria.|
+| ```-maxdepth levels```| Restricts the search to a specified directory depth.|
+| ```-mindepth levels```| Specifies the minimum directory depth for the search.|
+| ```-empty```| Finds empty files and directories.|
+| ```-delete```| Deletes files that match the specified criteria.|
+| ```-execdir command {} \;```| Executes a command on each file found, from the directory containing the matched file.|
+| ```-iname pattern```| Case-insensitive version of `-name`. Searches for files with a specific name or pattern, regardless of case.|
+
+
+
+
+
+
+
+#### 1. It renames the source_file_name as Destination_file_name
+###### If `Destination_file_name` already exists, in that case, it will be overwritten without prompting for confirmation.
+    mv <source_file_name> <Destination_file_name>
+#### 1. It renames the source_file_name as Destination_file_name
+###### If `Destination_file_name` already exists, in that case, it will be overwritten without prompting for confirmation.
+    mv <source_file_name> <Destination_file_name>
