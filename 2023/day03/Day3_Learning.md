@@ -59,9 +59,9 @@ Here are the `find` command options along with brief descriptions of their purpo
 
 
 
-#### 1. It renames the source_file_name as Destination_file_name
-###### If `Destination_file_name` already exists, in that case, it will be overwritten without prompting for confirmation.
-    mv <source_file_name> <Destination_file_name>
-#### 1. It renames the source_file_name as Destination_file_name
-###### If `Destination_file_name` already exists, in that case, it will be overwritten without prompting for confirmation.
-    mv <source_file_name> <Destination_file_name>
+#### 1. To find a ```file/directory_name``` in the home directory
+    find ~ -name <file/directory_name>
+#### 2. It seeks a ```file/directory_name``` within the ```90days``` directory. (like searching the directory from pwd and then search for file/directory throughout that directory)
+    find ./90days -name <file/directory_name>
+#### 3. It seeks a ```file/directory_name``` within the ```directory_name``` directory.
+    find ./<directory_name> -name <file/directory_name>
