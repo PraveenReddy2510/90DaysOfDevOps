@@ -41,6 +41,8 @@ Blog's referred:
     find ./<directory_name> -name <file/directory_name>
 #### 3. It seeks a ```file/directory_name``` having the specific pattern of file type within the ```directory_name``` directory. (like searching from the pwd and then search for file/directory throughout that directory)
     find ./<directory_name> -name *.txt 
+#### 4. It lists the empty files and directories within a specified directory ```directory_name```.
+    find ./<directory_name> -empty
 
 #### Options Available in Find Command in Linux
 #### Here are the `find` command options along with brief descriptions of their purposes.
