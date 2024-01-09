@@ -64,3 +64,12 @@ Blog's referred:
 ## G. ```chmod``` Command (```chmod``` stands for ```change mode``` and used for change file permissions. In this the permissions have three categories: read, write, and execute simultaneously represented by `r`, `w` and `x`. )
 #### 1. To find a ```file/directory_name``` in the home directory
     find ~ -name <file/directory_name>
+#### Options Available in chmod Command Linux
+| Options  | Description |
+| ------------- | ------------- |
+| ```-R```| Apply the permission change recursively to all the files and directories within the specified directory.|
+| ```-v```| It will display a message for each file that is processed. while indicating the permission change that was made.|
+| ```-c```| It works same as `-v` but in this case it only displays messages for files whose permission is changed.|
+| ```-f```| It helps in avoiding display of error messages.|
+| ```-h```| Change the permissions of symbolic links instead of the files they point to.|
+
