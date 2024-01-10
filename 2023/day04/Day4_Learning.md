@@ -43,8 +43,11 @@ Blog's referred:
 #### 8. To Open Dashed Files (example: ```-flash```, ```-dashed_file```)
     cat -- <-dashed_file>
 ![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/644040eb-78b6-48b5-ba33-1c20a0691e49)
-
-
-
+#### 9. To show the content in fit mode of CLI and ```MORE``` option to see next line by clicking enter for each line.
+    cat <file_name> | more
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/b80ba52a-a0a6-4ae2-941b-0d2247691853)
+#### 10. To Append the content to the last line of exiting file
+    cat >> <file_name>
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/fbc85b47-dc51-4440-b172-07f05a47e5b7)
 
 
