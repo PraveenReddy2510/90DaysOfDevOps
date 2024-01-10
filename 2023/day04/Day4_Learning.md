@@ -3,6 +3,8 @@ Blog's referred:
 - https://medium.com/cloud-native-daily/mastering-linux-for-devops-engineers-essential-commands-and-practices-for-success-a608a718069f
 - https://medium.com/cloud-native-daily/mastering-linux-advanced-skills-for-devops-engineers-1a0c00fad159
 - https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/
+- https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/
+- https://www.youtube.com/watch?v=zsajhz2_50g&list=PLdpzxOOAlwvIZ7u-gtpX_bozrspUbTQ1S&pp=iAQB
 
 # 2. Text Manipulation and Viewing
 ## A. ```cat``` Command (it is used for various file-related operations, allowing users to view, concatenate, create, copy, merge, and manipulate file contents.
@@ -50,4 +52,20 @@ Blog's referred:
     cat >> <file_name>
 ![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/fbc85b47-dc51-4440-b172-07f05a47e5b7)
 
+# Shell Scripting
+## Shell Scripting used for automate the linux commands.
+### We will discuss Linux shells and shell scripting so before understanding shell scripting we have to get familiar with the following terminologies:
+- Kernel
+- Shell
+- Terminal
+### What is Kernel?
+#### The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. It manages the following resources of the Linux system –
+* File management
+* Process management
+* I/O management
+* Memory management
+* Device management etc.
+#### It is often mistaken that Linus Torvalds has developed Linux OS, but actually, he is only responsible for the development of the Linux kernel.
+#### Complete ```Linux system``` ```=``` ```Kernel``` ```+``` ```GNU system utilities and libraries``` ```+``` ```other management scripts``` ```+``` ```installation scripts```
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/0a13f8fa-b28c-4004-a7ab-1b116de03eff)
 
