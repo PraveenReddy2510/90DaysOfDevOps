@@ -34,7 +34,15 @@ Blog's referred:
     cat <one_file_name> >> <another_file_name1>
 ![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/1746c658-95a6-4aa2-a574-87fed5ba294f)
 
-
+#### 7. To Display Content in Reverse Order.
+    tac <file_name>
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/b4e9fa0a-fe3b-4c65-9d54-4f2c28a4509b)
+#### 7. To Highlight the End of Line
+    cat -E <file_name>
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/fd0b0dce-be13-409a-8fd8-597071efc901)
+#### 8. To Open Dashed Files (example: ```-flash```, ```-dashed_file```)
+    cat -- <-dashed_file>
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/644040eb-78b6-48b5-ba33-1c20a0691e49)
 
 
 
