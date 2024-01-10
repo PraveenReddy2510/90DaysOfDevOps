@@ -69,3 +69,26 @@ Blog's referred:
 #### Complete ```Linux system``` ```=``` ```Kernel``` ```+``` ```GNU system utilities and libraries``` ```+``` ```other management scripts``` ```+``` ```installation scripts```
 ![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/0a13f8fa-b28c-4004-a7ab-1b116de03eff)
 
+### What is Shell?
+#### A shell is a special user program that provides an interface for the user to use operating system services. Shell accepts human-readable commands from users and converts them into something which the kernel can understand. It is a command language interpreter that executes commands read from input devices such as keyboards or from files. The shell gets started when the user ```logs in``` or ```starts the terminal```.
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/4d65b90c-e011-4677-8fc9-1b11a7751264)
+##### Shell is broadly classified into two categories –
+##### 1. Command Line Shell
+##### 2. Graphical shell
+------------------------------------------------------------------------------------------
+#### 1. Command Line Shell
+##### Shell can be accessed by users using a command line interface. A special program called Terminal in Linux/macOS, or Command Prompt in Windows OS is provided to type in the human-readable commands such as “cat”, “ls” etc. and then it is being executed. The result is then displayed on the terminal to the user. A terminal in Ubuntu 16.4 system looks like this –
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/a162c316-a501-4f27-b6db-9cea956675ff)
+
+###### In the above screenshot ```ls``` command, it will list all the files in the current working directory.
+##### Working with a command line shell is a bit difficult for beginners because it’s hard to memorize so many commands. ```It is very powerful```; it allows users to store commands in a file and execute them together. This way any repetitive task can be easily automated. These files are usually called ```batch files in Windows``` and ```Shell Scripts in Linux/macOS systems```.
+
+#### 2. Graphical Shells
+##### Graphical shells provide means for manipulating programs based on the graphical user interface (GUI), by allowing for operations such as opening, closing, moving, and resizing windows, as well as switching focus between windows. Window OS or Ubuntu OS can be considered as a good example which provides GUI to the user for interacting with the program. Users do not need to type in commands for every action. A typical GUI in the Ubuntu system –
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/387accb4-b74d-4657-94f4-9999e03207fc)
+
+#### There are several shells are available for Linux systems like –
+- BASH (Bourne Again SHell) – It is the most widely used shell in Linux systems. It is used as default login shell in Linux systems and in macOS. It can also be installed on Windows OS.
+- CSH (C SHell) – The C shell’s syntax and its usage are very similar to the C programming language.
+- KSH (Korn SHell) – The Korn Shell was also the base for the POSIX Shell standard specifications etc.
+###### ```Note```: Each shell does the same job but understands different commands and provides different built-in functions.
