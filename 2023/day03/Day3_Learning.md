@@ -133,3 +133,8 @@ Blog's referred:
 #### 6 represent permission of file Owner which are (rw).
 #### 7 represent permission of Group which are (rwx).
 #### 4 represent permission of Other which is (r).
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/f2d24389-f2c5-412a-9f40-0245bfd1be34)
+
+![image](https://github.com/PraveenReddy2510/90DaysOfDevOps/assets/127923130/20145e99-3826-4d6b-8d4a-f009255a16fb)
+
+
